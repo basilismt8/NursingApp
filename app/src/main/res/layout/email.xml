@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="θέμα" />
+
+    <EditText
+        android:id="@+id/email_body"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:hint="Γράψτε το κείμενο του Email εδώ!!!" />
+    <ImageView
+        android:id="@+id/send_email"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+        android:layout_gravity="end"
+        app:srcCompat="@drawable/sendmail" />
+</LinearLayout>

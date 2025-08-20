@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/arxikh"
+            android:icon="@drawable/home"
+            android:title="Αρχική" />
+        <item
+            android:id="@+id/anakoinoseis"
+            android:icon="@drawable/anakinoseis1"
+            android:title="Ανακοινώσεις" />
+        <item
+            android:id="@+id/link"
+            android:icon="@drawable/link"
+            android:title="Χρήσιμοι Σύνδεσμοι" />
+        <item
+            android:id="@+id/spoudes"
+            android:icon="@drawable/akadimaika"
+            android:title="Σπουδές" />
+        <item
+            android:id="@+id/prosopiko"
+            android:icon="@drawable/prosopiko"
+            android:title="Ανθρώπινο Δυναμικό" />
+        <item
+            android:id="@+id/map"
+            android:icon="@drawable/maps"
+            android:title="Πώς θα μας βρείτε" />
+        <item
+            android:id="@+id/info"
+            android:icon="@drawable/coding"
+            android:title="Πληροφορίες" />
+    </group>
+
+    <item android:title="Επικοινωνία">
+        <menu>
+            <item
+                android:id="@+id/sendmail"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Αποστολή Email Στο Τμήμα" />
+        </menu>
+    </item>
+
+</menu>

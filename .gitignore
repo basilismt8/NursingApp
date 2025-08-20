@@ -1,0 +1,50 @@
+# Built application files
+*.apk
+*.ap_
+*.aab
+
+# ART/Dalvik VM files
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+build/
+captures/
+local.properties
+
+# Gradle files
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+.gradle/
+**/build/
+**/out/
+
+# Android Studio/IntelliJ files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Keystore files (don’t upload signing keys!)
+*.jks
+*.keystore
+
+# Google Services (keep this secret!)
+google-services.json
+
+# Android Profiling/Log files
+*.hprof
+*.log
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# JetBrains/VSCode/Other IDE
+.vscode/
